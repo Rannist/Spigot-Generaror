@@ -3,7 +3,7 @@
 
 name: Build Spigot Jar
 env:
-    latest: '1.17.1'
+    latest: '1.20.1'
 
 on:
     workflow_dispatch:
@@ -50,7 +50,7 @@ jobs:
         strategy:
             matrix:
                 ver:
-                    - 'latest'
+                    - '1.20.1'
                     - '1.19.2'
                     - '1.19.1'
                     - '1.19'
